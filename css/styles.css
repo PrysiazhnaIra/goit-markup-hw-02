@@ -30,7 +30,7 @@ li {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -105,7 +105,8 @@ li {
   cursor: pointer;
 }
 
-.solutions-btn:hover {
+.solutions-btn:hover,
+.solutions-btn:focus {
   background-color: #404bbf;
 }
 
@@ -227,9 +228,10 @@ li {
 
 .footer-link-logo {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
